@@ -1,3 +1,39 @@
-.cabecalho{
-	background-color:#4682B4;
+	/*
+	cor pricncipal= #d1b989
+	cor secundaria= #e4cda3
+
+
+	contraste principal= #223c6f
+	contraste secundario= #5773b2
+
+
+	*/
+body
+{
+	padding: 0;
+	margin: 0;
+	color: #223c6f;
 }
+	.cabecalho
+	{
+		border:1px solid #223c6f;
+		background-image:url('imagens/planodefundo.jpg') ; 
+	}
+
+	.menu
+	{
+		border:1px solid #223c6f;
+		background: #dbc49a;
+		text-align: center;
+	}
+		.menu a
+		{
+			border:1px solid #223c6f;
+			text-decoration: none;
+			color:#223c6f;	
+			padding: 5px;
+		} 
+	.logo
+	{
+		border:1px solid #223c6f;
+	}
